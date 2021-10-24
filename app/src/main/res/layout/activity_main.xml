@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="3"
+    android:id="@+id/GridLayout1"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:text="A"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="left|top"
+        />
+
+    <Button
+        android:text="B"
+        android:layout_marginLeft="-5dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="left|top"
+        />
+    <Button
+        android:text="C"
+        android:layout_marginLeft="-9dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="left|top"
+        />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="-7dp"
+        android:backgroundTint="@color/white"
+        android:text="D"
+        android:textColor="@color/black" />
+    <Button
+        android:text="E"
+        android:layout_marginTop="-12dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="left|top"
+        />
+    <Button
+        android:text="F"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="-12dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="left|top"
+        />
+    <Button
+        android:text="G"
+        android:layout_marginLeft="-9dp"
+        android:layout_marginTop="-12dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="left|top"
+        />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="-12dp"
+        android:backgroundTint="@color/white"
+        android:text="H"
+        android:textColor="@color/black" />
+    <Button
+        android:text="I"
+        android:layout_marginTop="-12dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="left|top"
+        />
+    <Button
+        android:text="J"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="-12dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="left|top"
+        />
+    <Button
+        android:text="K"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="-12dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="left|top"
+        />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="-12dp"
+        android:layout_gravity="left|top"
+        android:backgroundTint="@color/white"
+        android:text="L"
+        android:textColor="@color/black" />
+
+
+
+
+
+</GridLayout>
